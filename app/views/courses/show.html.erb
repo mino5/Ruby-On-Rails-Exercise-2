@@ -1,0 +1,18 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @course.name %>
+</p>
+
+<p>
+  <b>Points:</b>
+  <%= @course.points %>
+</p>
+
+<p>
+  <b>Mandatory:</b>
+  <%= @course.mandatory %>
+</p>
+
+<%= link_to 'Back', student_path(@student_course) %>
